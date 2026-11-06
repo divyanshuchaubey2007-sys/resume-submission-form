@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESUME SUBMISSION WEB</title>
+</head>
+<body>
+    <center style="background-color: rgb(211, 243, 246);">
+        <table border="10" style="border-color: rgb(103, 154, 241);" style="border-style: solid;" cellpadding="10" cellspacing="20" width="800">
+            <tr>
+                <th rowspan="1"><h1 style="color:blue;">RESUME SUBMISSION FORM</h1></th>
+            </tr>
+            <tr>
+                <td rowspan="1">
+                    <label for="name" style="color: blue;"><i>NAME:</i></label>
+                    <input type="text" id="name" placeholder="ENTER YOUR NAME:" required>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="1">
+                    <label for="email" style="color: blue;"><i>EMAIL:</i></label>
+                    <input type="email" id="email" placeholder="ENTER YOUR EMAIL:" required>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="1">
+                    <label for="phone number" style="color: blue;"><i>PHONE NUMBER:</i></label>
+                    <input type="tel" id="phone number" placeholder="ENTER YOUR PHONE NUMBER:" required>
+                </td>
+            </tr>
+            <tr>
+
+                <td rowspan="1">
+        <label for="gender" style="color: blue;"><i>GENDER:</i></label>
+        <input type="radio" id="gender" name="gender" value="male" required>MALE
+        <input type="radio" id="gender" name="gender" value="female" required>FEMALE
+        <input type="radio" id="gender" name="gender" value="other" required>OTHER
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="1">
+        <label for="skill" style="color: blue;"><i>SKILLS:</i></label>
+        <input type="checkbox" id="skill" name="skill" value="html" required>HTML
+        <input type="checkbox" id="skill" name="skill" value="css" required>CSS
+        <input type="checkbox" id="skill" name="skill" value="javascript" required>JAVASCRIPT
+            </td>
+            </tr>
+            <tr>
+                <td rowspan="1">
+                    <label for="position" style="color: blue;"><i>POSITION:</i></label>
+                    <select id="position" name="position" required>
+                        <option value="">SELECT YOUR POSITION</option>
+                        <option value="frontend developer">FRONTEND DEVELOPER</option>
+                        <option value="backend developer">BACKEND DEVELOPER</option>
+                        <option value="ui/ux designer">UI/UX DESIGNER</option>
+                        <option value="project manager">PROJECT MANAGER</option>
+                        <option value="data analyst">DATA ANALYST</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="portfolio" style="color: blue;"><i>PORTFOLIO OR LINKEDIN:</i></label>
+                    <input type="url" id="portfolio" placeholder="https://example.com" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="experience" style="color: blue;"><i>EXPERIENCE:</i></label>
+                    <textarea id="experience" placeholder="ENTER YOUR EXPERIENCE:" rows="8" cols="40" required></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="profile picture" style="color: blue;"><i>PROFILE PICTURE:</i></label>
+                    <input type="file" id="profile picture"  accept="image/*" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="resume" style="color: blue;"><i>RESUME:</i></label>
+                    <input type="file" id="resume" accept="application/pdf" required>
+                    <label for="signature" style="color: blue;"><i>SIGNATURE:</i></label>
+                    <input type="file" id="signature" accept="image/*" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="term & condition"><i>make sure you read all the terms and conditions and agree to them:</i></label>
+                    <input type="checkbox" id="term & condition" name="term & condition" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <center><button type="submit"><a href="submit.html" >SUBMIT</a></button></center>
+                </td>
+            </tr>
+
+        </table>
+    </center>
+</body>
+</html>
